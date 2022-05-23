@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Shoot",
+            "id": "37548c3a-81de-4fb4-8ecc-5061f9fff1b4",
+            "actions": [
+                {
+                    "name": "ShootGun",
+                    "type": "Button",
+                    "id": "68238fa9-5472-4d6b-b69a-f7463bb26866",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b57cf128-b95d-4d26-9df5-c49472853f54",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootGun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
